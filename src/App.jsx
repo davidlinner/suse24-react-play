@@ -4,6 +4,7 @@ import Chip from "./Chip/Chip.jsx";
 import Tooltip from "./Tooltip/Tooltip.jsx";
 import MyList from "./MyList/MyList.jsx";
 import Counter from "./Counter/Counter.jsx";
+import Form from "./Form/Form.jsx";
 
 const myReason = 'whatever';
 
@@ -21,6 +22,10 @@ function App() {
         <MyList items={[1,1,2,3,5,8,13]}/>
 
         <Counter/>
+
+        <h2>Form</h2>
+        <Form />
+
     </div>;
 }
 

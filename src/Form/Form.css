@@ -1,0 +1,6 @@
+.form-grid{
+    display: grid;
+    grid-template-columns: 15rem 15rem;
+    grid-row-gap: 1rem;
+}
+
